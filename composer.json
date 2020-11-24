@@ -1,0 +1,19 @@
+{
+    "name": "vendor/orm",
+    "description": "Description of project orm.",
+    "authors": [
+        {
+            "name": "BreakIA",
+            "email": "your@email.here"
+        }
+    ],
+  
+    "require": {
+        "doctrine/orm": "^2.6.2",
+        "symfony/yaml": "2.*"
+    },
+    "autoload": {
+        "psr-0": {"": "src/"}
+    }
+
+}
